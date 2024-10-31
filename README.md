@@ -42,9 +42,11 @@ The following diagram showcase how the ETW architecture is laid out:
 <img src="https://i.imgur.com/KoBQzKo.png" height="60%" width="60%" alt="ETW">
 
 - By specifying a provider with Logman, we gain a deeper understanding of the provider's function. This will inform us about the Keywords we can filter on, the available event levels, and which processes are currently utilizing the provider.
+
 <img src="https://i.imgur.com/SeuxI40.png" height="60%" width="60%" alt="ETW">
 
 - The Microsoft-Windows-Winlogon/Diagnostic and Microsoft-Windows-Winlogon/Operational keywords reference the event logs generated from this provider.
+
 - GUI-based alternatives also exist. These are:
   - Using the graphical interface of the Performance Monitor tool, we can visualize various running trace sessions. A detailed overview of a specific trace can be accessed simply by double-clicking on it.
   - This reveals all pertinent data related to the trace, from the engaged providers and their activated features to the nature of the trace itself.
